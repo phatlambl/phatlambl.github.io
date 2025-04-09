@@ -1,0 +1,117 @@
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="src/portfolio-indoor.html"
+                ><i class="lnr lnr-chevron-left"></i
+                ></a>
+                <a class="ajax-page-load" href="src/portfolio-npark.html"
+                ><i class="lnr lnr-chevron-right"></i
+                ></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"
+                ><i class="lnr lnr-cross"></i
+                ></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Digital Learning</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="../img/portfolio/shbfc/shbfc_cusapp_00.png" alt=""/>
+                    </div>
+                    <div class="item">
+                        <img src="../img/portfolio/shbfc/shbfc_cusapp_01.png" alt=""/>
+                    </div>
+                    <div class="item">
+                        <img src="../img/portfolio/shbfc/shbfc_cusapp_02.png" alt=""/>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    jQuery(document).ready(function ($) {
+                        $(".portfolio-page-carousel").imagesLoaded(function () {
+                            $(".portfolio-page-carousel").owlCarousel({
+                                smartSpeed: 1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight: true,
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+
+                    <p class="text-justify">
+                        A mobile application designed for customers to apply for consumer loans, view their loan
+                        contracts with SHBFinance, access credit card information, and review/sign digital loan
+                        agreements ...
+                    </p>
+                    <p>Position: Backend Software Engineer</p>
+                    <p>My responsibilities included maintaining the system, fixing production issues, supporting the
+                        migration from manual deployment to Kubernetes (K8s), and enhancing the application’s
+                        security.</p>
+                    <!-- /Project Description -->
+
+
+                    <!-- Responsibilities -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Responsibilities</h3>
+                        </div>
+                        <ul class="project-general-info">
+                            <li>
+                                <p><i class="fa fa-tasks"></i> Task management</p>
+                                <p><i class="fa fa-tasks"></i> Development</p>
+                                <p><i class="fa fa-tasks"></i> Analyze and propose technical solutions</p>
+                                <p><i class="fa fa-tasks"></i> Mentoring junior developers</p>
+                                <p><i class="fa fa-tasks"></i> Code review and optimization</p>
+                                <p><i class="fa fa-tasks"></i> Improve security</p>
+                                <p><i class="fa fa-tasks"></i> Bug fixing</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /Responsibilities -->
+
+                    <!-- Technology -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Technologies Used</h3>
+                        </div>
+                        <ul class="tags">
+                          <li><a>Java</a></li>
+                          <li><a>Spring boot</a></li>
+                          <li><a>Mysql</a></li>
+                          <li><a>Redis</a></li>
+                          <li><a>K8S</a></li>
+                          <li><a>ELK</a></li>
+                          <li><a>Flyway</a></li>
+                          <li><a>Hashicorp Vault</a></li>
+                          <li><a>Git</a></li>
+                          <li><a>Redmine</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- /Technology -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
