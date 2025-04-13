@@ -1618,6 +1618,10 @@ input[type="text"],
   position: relative;
 }
 
+figure.item {
+  text-align: center;
+}
+
 .portfolio-grid figure img {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -1642,10 +1646,15 @@ input[type="text"],
 .portfolio-item-img {
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .portfolio-item-img img {
   height: 140px;
-  max-height: 140px;
+  max-height: 100%;
+  width: auto;
+  object-fit: cover;
 }
 
 .portfolio-grid figure .portfolio-item-img:after {
